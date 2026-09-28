@@ -1,0 +1,44 @@
+﻿<ContentPage
+    x:Class="MauiSeminarioNovo.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Minha Lista MAUI">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30"
+            Spacing="20">
+
+            <Label
+                Text="Minha Lista de Tarefas"
+                FontSize="30"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Demonstração prática de .NET MAUI"
+                FontSize="17"
+                HorizontalOptions="Center" />
+
+            <Entry
+                x:Name="TarefaEntry"
+                Placeholder="Digite uma tarefa" />
+
+            <Button
+                Text="Adicionar tarefa"
+                Clicked="OnAdicionarClicked" />
+
+            <Label
+                x:Name="MensagemLabel"
+                Text="Nenhuma tarefa adicionada."
+                FontSize="17"
+                HorizontalOptions="Center" />
+
+            <Button
+                Text="Ver detalhes"
+                Clicked="OnDetalhesClicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

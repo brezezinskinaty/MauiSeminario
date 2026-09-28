@@ -1,0 +1,34 @@
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MauiSeminarioNovo.DetalhesPage"
+    Title="Sobre o projeto">
+
+    <VerticalStackLayout
+        Padding="30"
+        Spacing="20">
+
+        <Label
+            Text=".NET MAUI na prática"
+            FontSize="28"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" />
+
+        <Label
+            Text="Você navegou para uma segunda página!"
+            FontSize="20"
+            HorizontalOptions="Center" />
+
+        <Label
+            Text="Esta página demonstra a navegação entre páginas utilizando o Shell do .NET MAUI."
+            FontSize="17"
+            HorizontalOptions="Center" />
+
+        <Label
+            Text="Tecnologias utilizadas: C#, XAML e .NET MAUI."
+            FontSize="17"
+            HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
